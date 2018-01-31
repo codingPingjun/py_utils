@@ -14,6 +14,7 @@ def configuration(parent_package='', top_path=None):
 
     config.add_subpackage('contours')
     config.add_subpackage('filesystem')
+    config.add_subpackage('hardware')    
     config.add_subpackage('images')
     config.add_subpackage('plots')
     config.add_subpackage('slides')
